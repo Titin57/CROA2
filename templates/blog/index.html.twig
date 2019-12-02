@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %} {% block title %}Hello BlogController!{% endblock %} {% block body %}
+
+<section class="rapports">
+
+    <rapport>
+        <h2>Titre du rapport</h2>
+        <div class="metadata">Ecrit le 01/12/2019 à 16:00 dans la catégorie Planète</div>
+        <div class="content">
+            <img src="http://placehold.it/350*150" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis dolor maxime ullam beatae, ea error!</p>
+            <p>Ea similique nostrum ipsa blanditiis. Consequuntur, repellendus provident odio harum excepturi dignissimos! Dolorum, ad esse!</p>
+            <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </rapport>
+    <rapport>
+        <h2>Titre du rapport</h2>
+        <div class="metadata">Ecrit le 01/12/2019 à 16:00 dans la catégorie Planète</div>
+        <div class="content">
+            <img src="http://placehold.it/350*150" alt="">
+            <p>Consectetur dicta soluta necessitatibus? Porro laborum et quasi provident exercitationem perferendis vitae sapiente similique dolorum?</p>
+            <p>Deleniti illo tempore, molestiae fuga sunt minima iste architecto! Minus praesentium aliquid asperiores sequi cupiditate.</p>
+            <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </rapport>
+    <rapport>
+        <h2>Titre du rapport</h2>
+        <div class="metadata">Ecrit le 01/12/2019 à 16:00 dans la catégorie Planète</div>
+        <div class="content">
+            <img src="http://placehold.it/350*150" alt="">
+            <p>Accusantium quas adipisci fugiat magnam doloribus autem optio recusandae similique. Minus, soluta. Laboriosam, magni sunt?</p>
+            <p>Doloribus ipsa magni reprehenderit libero eos facere explicabo beatae. Delectus perspiciatis autem aliquid error veritatis?</p>
+            <a href="{{ path('blog_show') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </rapport>
+
+</section>
+
+{% endblock %}
